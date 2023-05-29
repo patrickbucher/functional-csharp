@@ -1,10 +1,8 @@
-﻿using System.Collections.Generic;
-
-namespace Lib;
+﻿namespace Lib;
 
 public class FunctionsAsFirstClassValues
 {
-    public static IEnuemrable<int> ArithmeticPipeline(IEnuemrable<int> numbers)
+    public static IEnumerable<int> ArithmeticPipeline(IEnumerable<int> numbers)
     {
         var increment = (int x) => x + 1;
         var decrement = (int x) => x - 1;
